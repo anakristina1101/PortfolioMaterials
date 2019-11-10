@@ -1,0 +1,78 @@
+#NamePlate mark {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  background-color: #4aaaa5;
+  font-weight: bolder;
+}
+
+.PageName {
+  color: #4aaaa5;
+}
+.container {
+  background-color: #ffffff;
+  border: 80px;
+  border-style: solid;
+  border-color: lightslategray;
+  padding: 50px;
+}
+
+.images {
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+img {
+  padding: 10px;
+}
+.Thumbnail {
+  display: inline-block;
+  position: relative;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 5%;
+  top: 75%;
+  width: 90%;
+  height: 15%;
+  color: #fff;
+  background-color: #4aaaa5;
+}
+
+.footer {
+  background-color: #666666;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 10px;
+}
+
+.ContactForm,
+.PortfolioForm {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
